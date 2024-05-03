@@ -1,0 +1,80 @@
+@charset "ISO-8859-1";
+ 
+h1,
+h4 {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 0px;
+}
+
+h4.sub-heading1 {
+    margin-left: 5px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+/*Quick access links*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 60px 40px;
+}
+
+.QAimg {
+    width: 54%;
+    margin-right: 30px;
+}
+
+.content {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+
+.topic {
+    text-align: left;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1.5rem;
+}
+
+.Link-set {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Link-set li a {
+    display: block;
+    text-decoration: none;
+    padding: 30px 16px;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 10px;
+    color: rgb(59, 59, 59);
+    font-size: 23px;
+    margin: 10px;
+}
+
+.Link-set li a i.fa {
+    float: right;
+    padding-top: 5px;
+}
+
+.Link-set li :hover {
+    border: 2px solid black;
+    transform: scale(1.05);
+}
+  .title {
+    display: flex;
+    margin: 60px 0 30px 150px;
+    text-align: center;
+}
+
+ .title .text {
+    font-size: 45px;
+    font-weight: 500;
+    color: #002960;
+    margin-left: 10px;
+    text-align: center;
+}

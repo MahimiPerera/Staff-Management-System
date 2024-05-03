@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+ 
+ 
+ 
+h1 {
+	   font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+} 
+ 
+
+td {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 8px;
+    width: 50%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+ 
+
+ 
+
+.button {
+    width: 200px;
+    padding: 10px;
+    background-color: #1d64c2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 1100px;
+    margin-left: 1000px;
+    margin-top: -100px;
+}
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
